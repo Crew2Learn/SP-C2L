@@ -1,0 +1,159 @@
+/* Empty. Add your own CSS if you like */
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  letter-spacing: -0.01em;
+  font-family: "Segoe UI", "Lato", Helvetica;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+h5 {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+h6 {
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
+a{
+  font-size: 1.0em;
+  color: white;
+  font-family: "Segoe UI", "Lato", Helvetica;
+}
+
+b{
+  font-family: "Segoe UI", "Lato", Helvetica;
+  color: #fff;
+}
+
+.color_white{
+  color: #fff;
+}
+
+.color_light_gray{
+  color: #D1D2D4 !important;
+}
+
+.color_black{
+  color: #2f2f2f !important;
+}
+
+.color_c2l{
+  color: #1abc9c !important;
+}
+
+.input_own_login{
+  background-color: rgba(255,255,255,0.09) !important; /*Marc: Evtl wießer Hintergrund fancy dancy amk*/
+  border-radius: 8px 8px 8px 8px;
+  border-color: #1abc9c !important;
+  height: 2.5em;
+  border-width: 2px;
+  color: #fff !important;
+
+}
+
+.input_own_login input[type="text"], input[type="password"]{
+  color: #fff !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input_own_app{
+  background-color: rgba(0,0,0,0.2) !important; /*Marc: Evtl wießer Hintergrund fancy dancy amk*/
+  border-radius: 8px 8px 8px 8px;
+  border-color: #1abc9c !important;
+  height: 2.5em;
+  border-width: 2px;
+  color: #fff !important;
+
+}
+
+.input_own_app input[type="text"], input[type="password"]{
+  color: #fff !important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.round_corner{
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+
+.bold_own{
+  font-weight: bold;
+}
+
+.logo_formate{
+  width: 35%;
+  height: 10%;
+}
+
+.filter_cover{
+  background-color: black;
+  opacity: 0.5;
+}
+
+.back_btn{
+  background-color: rgba(0,0,0,0);
+  color: #fff;
+  border-width: 0;
+  font-size: 22px !important;
+  padding-top: 3px !important;
+  padding-left: 10px !important;
+}
+
+.header_std{
+  background-color: #1ABC9C;
+
+}
+
+.header_std h2{
+  padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

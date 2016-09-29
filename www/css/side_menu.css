@@ -1,0 +1,48 @@
+
+.custom {
+  background-color: #2f2f2f !important;
+}
+
+.custom .item {
+  background-color: transparent;
+  border:none;
+  border-top: 1px solid;
+  border-bottom:1px solid;
+  border-color: #666;
+  color: #fff;
+}
+
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent !important;
+}
+
+.custom h2, .custom h3, .custom p, .custom a {
+  color: #fff !important;
+}
+
+.custom p:active{
+  color: #1abc9c !important;
+}
+
+.custom p{
+  font-size: 1.1em !important;
+  font-weight: bold;
+}
+
+.c2l_tag{
+
+  font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
