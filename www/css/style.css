@@ -39,6 +39,7 @@ a{
   font-size: 1.0em;
   color: white;
   font-family: "Segoe UI", "Lato", Helvetica;
+  text-decoration: none;
 }
 
 b{
@@ -130,6 +131,21 @@ b{
 
 .header_std h2{
   padding-left: 40px;
+}
+
+.activity_backcolor{
+  background-color: #333333;
+}
+
+
+.my_form{
+  height: 2em;
+  width: 100%;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 5px 5px 5px;
+  font: Arial;
 }
 
 

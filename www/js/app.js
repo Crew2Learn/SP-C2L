@@ -68,11 +68,29 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
+    .state('tabs.crew_erstellen_2', {
+      url:'/crew_erstellen_2',
+      views: {
+        'menuContent':{
+          templateUrl: 'templates/crew_erstellen_2.html'
+        }
+      }
+    })
+
     .state('tabs.crew_suche', {
       url:'/crew_suche',
       views: {
         'menuContent':{
           templateUrl: 'templates/crew_suche.html'
+        }
+      }
+    })
+
+    .state('tabs.crew_suche_2', {
+      url:'/crew_suche_2',
+      views: {
+        'menuContent':{
+          templateUrl: 'templates/crew_suche_2.html'
         }
       }
     })
