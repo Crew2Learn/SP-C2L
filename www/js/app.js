@@ -96,6 +96,24 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     })
 
 
+    .state('tabs.Profil', {
+      url:'/profil',
+      views: {
+        'menuContent':{
+          templateUrl: 'templates/profil.html'
+        }
+      }
+    })
+
+    .state('tabs.raum', {
+      url:'/raum',
+      views: {
+        'menuContent':{
+          templateUrl: 'templates/raum.html'
+        }
+      }
+    })
+
 
     .state('tabs.break', {
       url:'/break',
