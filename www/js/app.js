@@ -95,11 +95,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tabs.login', {
-      url:'/login',
+    .state('tabs.Profil', {
+      url:'/profil',
       views: {
         'menuContent':{
-          templateUrl: 'templates/login.html'
+          templateUrl: 'templates/profil.html'
+        }
+      }
+    })
+
+    .state('tabs.raum', {
+      url:'/raum',
+      views: {
+        'menuContent':{
+          templateUrl: 'templates/raum.html'
         }
       }
     })
