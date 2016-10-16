@@ -95,14 +95,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-    .state('tabs.login', {
-      url:'/login',
-      views: {
-        'menuContent':{
-          templateUrl: 'templates/login.html'
-        }
-      }
-    })
+
 
     .state('tabs.break', {
       url:'/break',
