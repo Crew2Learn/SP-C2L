@@ -137,6 +137,10 @@ b{
   background-color: #1f1f1f;
 }
 
+.crew_text_color{
+  color:rgba(0,0,0,0.25);
+}
+
 
 .my_form{
   height: 2em;
